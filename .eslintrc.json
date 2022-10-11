@@ -1,0 +1,59 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:react/recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 13,
+        "sourceType": "module"
+    },
+    "settings": {
+        "react": {
+            "version": "17.0.2"
+        }
+    },
+    "plugins": [
+        "react",
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "indent": ["error", "tab"],
+        "linebreak-style": [
+            "warn",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "warn",
+            "never"
+        ],
+        "react/display-name": "off",
+        "react/prop-types": "off",
+        "@typescript-eslint/ban-ts-comment": "off",
+        "@typescript-eslint/no-empty-function": "off",
+        "@typescript-eslint/no-unused-vars": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "no-case-declarations": "off",
+        "comma-dangle": ["error", {
+            "arrays": "always-multiline",
+            "objects": "always-multiline",
+            "imports": "never",
+            "exports": "always-multiline",
+            "functions": "never"
+        }],
+        "object-curly-spacing": ["error", "always"]
+    }
+}

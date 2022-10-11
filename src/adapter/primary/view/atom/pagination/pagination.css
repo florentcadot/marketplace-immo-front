@@ -1,0 +1,40 @@
+.pagination a {
+  outline: none;
+}
+
+.pagination .page {
+  border-radius: 100%;
+  background-color: #f5f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #171d2b;
+  width: 2.25rem;
+  height: 2.25rem;
+  margin: 0 0.12rem;
+}
+
+.pagination .page.active {
+  background-color: #171d2b;
+  color: white;
+}
+
+.pagination .break {
+  border-radius: 100%;
+  background-color: #f5f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #171d2b;
+  width: 2.25rem;
+  height: 2.25rem;
+  margin: 0 0.12rem;
+}
+
+.pagination li {
+  list-style-type:none
+}
+
+.pagination a {
+  cursor: pointer;
+}
